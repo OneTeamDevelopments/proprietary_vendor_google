@@ -26,4 +26,3 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
-endif
