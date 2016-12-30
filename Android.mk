@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,12 +17,11 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),shamrock)
-
-
 ifeq ($(QCPATH),)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
-LOCAL_SRC_FILES_32 := lib/libtime_genoff.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libtime_genoff.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
