@@ -83,11 +83,15 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/google/shamrock/proprietary/etc/pp_calib_data_goworld_1080p_video_mode_dsi_panel.xml:system/etc/pp_calib_data_goworld_1080p_video_mode_dsi_panel.xml \
     vendor/google/shamrock/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
+    vendor/google/shamrock/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/google/shamrock/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
     vendor/google/shamrock/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/google/shamrock/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
+    vendor/google/shamrock/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/google/shamrock/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/google/shamrock/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/google/shamrock/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/google/shamrock/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/google/shamrock/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/google/shamrock/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/google/shamrock/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
