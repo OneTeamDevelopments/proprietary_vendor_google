@@ -35,8 +35,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/lib/vendor.qti.hardware.iop@2.0.so:/system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/google/shamrock/proprietary/lib/libwfdnative.so:/system/lib/libwfdnative.so \
     vendor/google/shamrock/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
+    vendor/google/shamrock/proprietary/lib/lib-imsvideocodec.so:/system/lib/lib-imsvideocodec.so \
     vendor/google/shamrock/proprietary/lib/vendor.qti.esepowermanager@1.0.so:/system/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/google/shamrock/proprietary/lib/libimsmedia_jni.so:/system/lib/libimsmedia_jni.so \
+    vendor/google/shamrock/proprietary/lib/lib-imscamera.so:/system/lib/lib-imscamera.so \
+    vendor/google/shamrock/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:/system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/google/shamrock/proprietary/lib/libwfds.so:/system/lib/libwfds.so \
     vendor/google/shamrock/proprietary/lib/vendor.qti.gnss@1.0.so:/system/lib/vendor.qti.gnss@1.0.so \
     vendor/google/shamrock/proprietary/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so:/system/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so \
@@ -48,22 +51,29 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/lib/libwfdsm.so:/system/lib/libwfdsm.so \
     vendor/google/shamrock/proprietary/lib/libGPTEE_system.so:/system/lib/libGPTEE_system.so \
     vendor/google/shamrock/proprietary/lib/libqti_performance.so:/system/lib/libqti_performance.so \
+    vendor/google/shamrock/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:/system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/google/shamrock/proprietary/lib/libantradio.so:/system/lib/libantradio.so \
     vendor/google/shamrock/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
     vendor/google/shamrock/proprietary/lib/libQTEEConnector_system.so:/system/lib/libQTEEConnector_system.so \
     vendor/google/shamrock/proprietary/lib/libwfduibcsinkinterface.so:/system/lib/libwfduibcsinkinterface.so \
     vendor/google/shamrock/proprietary/lib/libwfdcommonutils.so:/system/lib/libwfdcommonutils.so \
     vendor/google/shamrock/proprietary/lib/vendor.display.postproc@1.0.so:/system/lib/vendor.display.postproc@1.0.so \
+    vendor/google/shamrock/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:/system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/google/shamrock/proprietary/lib/vendor.qti.hardware.fm@1.0.so:/system/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/google/shamrock/proprietary/lib/libfilterpack_facedetect.so:/system/lib/libfilterpack_facedetect.so \
+    vendor/google/shamrock/proprietary/lib/lib-imsvtextutils.so:/system/lib/lib-imsvtextutils.so \
+    vendor/google/shamrock/proprietary/lib/com.qualcomm.qti.ant@1.0.so:/system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/google/shamrock/proprietary/lib/libqti-perfd-client_system.so:/system/lib/libqti-perfd-client_system.so \
     vendor/google/shamrock/proprietary/lib/vendor.display.color@1.0.so:/system/lib/vendor.display.color@1.0.so \
     vendor/google/shamrock/proprietary/lib/libwfdavenhancements.so:/system/lib/libwfdavenhancements.so \
+    vendor/google/shamrock/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:/system/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/google/shamrock/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:/system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/google/shamrock/proprietary/lib/libExtendedExtractor.so:/system/lib/libExtendedExtractor.so \
     vendor/google/shamrock/proprietary/lib/libwfduibcinterface.so:/system/lib/libwfduibcinterface.so \
     vendor/google/shamrock/proprietary/lib/libwfduibcsrc.so:/system/lib/libwfduibcsrc.so \
     vendor/google/shamrock/proprietary/lib/libimscamera_jni.so:/system/lib/libimscamera_jni.so \
+    vendor/google/shamrock/proprietary/lib/lib-imsvt.so:/system/lib/lib-imsvt.so \
+    vendor/google/shamrock/proprietary/lib/lib-imsvtutils.so:/system/lib/lib-imsvtutils.so \
     vendor/google/shamrock/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
     vendor/google/shamrock/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:/system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/google/shamrock/proprietary/lib/libfilterpack_imageproc.so:/system/lib/libfilterpack_imageproc.so \
@@ -76,29 +86,35 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/lib/libqmi_cci_system.so:/system/lib/libqmi_cci_system.so \
     vendor/google/shamrock/proprietary/lib/libwfdservice.so:/system/lib/libwfdservice.so \
     vendor/google/shamrock/proprietary/lib/vendor.qti.hardware.iop@1.0.so:/system/lib/vendor.qti.hardware.iop@1.0.so \
-    vendor/google/shamrock/proprietary/vendor/bin/chamomile_provision:/system/vendor/bin/chamomile_provision \
+    vendor/google/shamrock/proprietary/vendor/bin/xtra-daemon:/system/vendor/bin/xtra-daemon \
+    vendor/google/shamrock/proprietary/vendor/bin/garden_app:/system/vendor/bin/garden_app \
     vendor/google/shamrock/proprietary/vendor/bin/audioflacapp:/system/vendor/bin/audioflacapp \
     vendor/google/shamrock/proprietary/vendor/bin/lowi-server:/system/vendor/bin/lowi-server \
     vendor/google/shamrock/proprietary/vendor/bin/imsqmidaemon:/system/vendor/bin/imsqmidaemon \
-    vendor/google/shamrock/proprietary/vendor/bin/qmuxd:/system/vendor/bin/qmuxd \
     vendor/google/shamrock/proprietary/vendor/bin/xtwifi-client:/system/vendor/bin/xtwifi-client \
     vendor/google/shamrock/proprietary/vendor/bin/netmgrd:/system/vendor/bin/netmgrd \
     vendor/google/shamrock/proprietary/vendor/bin/imsdatadaemon:/system/vendor/bin/imsdatadaemon \
+    vendor/google/shamrock/proprietary/vendor/bin/ATFWD-daemon:/system/vendor/bin/ATFWD-daemon \
+    vendor/google/shamrock/proprietary/vendor/bin/hvdcp_opti:/system/vendor/bin/hvdcp_opti \
     vendor/google/shamrock/proprietary/vendor/bin/imsrcsd:/system/vendor/bin/imsrcsd \
     vendor/google/shamrock/proprietary/vendor/bin/msm_irqbalance:/system/vendor/bin/msm_irqbalance \
     vendor/google/shamrock/proprietary/vendor/bin/cnd:/system/vendor/bin/cnd \
     vendor/google/shamrock/proprietary/vendor/bin/adsprpcd:/system/vendor/bin/adsprpcd \
+    vendor/google/shamrock/proprietary/vendor/bin/tftp_server:/system/vendor/bin/tftp_server \
     vendor/google/shamrock/proprietary/vendor/bin/qti:/system/vendor/bin/qti \
     vendor/google/shamrock/proprietary/vendor/bin/slim_daemon:/system/vendor/bin/slim_daemon \
-    vendor/google/shamrock/proprietary/vendor/bin/mm-pp-daemon:/system/vendor/bin/mm-pp-daemon \
     vendor/google/shamrock/proprietary/vendor/bin/mm-qcamera-daemon:/system/vendor/bin/mm-qcamera-daemon \
     vendor/google/shamrock/proprietary/vendor/bin/imscmservice:/system/vendor/bin/imscmservice \
     vendor/google/shamrock/proprietary/vendor/bin/xtwifi-inet-agent:/system/vendor/bin/xtwifi-inet-agent \
+    vendor/google/shamrock/proprietary/vendor/bin/wifidisplayhalservice:/system/vendor/bin/wifidisplayhalservice \
+    vendor/google/shamrock/proprietary/vendor/bin/hci_qcomm_init:/system/vendor/bin/hci_qcomm_init \
+    vendor/google/shamrock/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service:/system/vendor/bin/hw/android.hardware.drm@1.0-service \
     vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service:/system/vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service \
     vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:/system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.hardware.factory@1.0-service:/system/vendor/bin/hw/vendor.qti.hardware.factory@1.0-service \
     vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:/system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:/system/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service \
+    vendor/google/shamrock/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:/system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/google/shamrock/proprietary/vendor/bin/irsc_util:/system/vendor/bin/irsc_util \
     vendor/google/shamrock/proprietary/vendor/bin/pm-service:/system/vendor/bin/pm-service \
     vendor/google/shamrock/proprietary/vendor/bin/pm-proxy:/system/vendor/bin/pm-proxy \
@@ -107,10 +123,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/bin/loc_launcher:/system/vendor/bin/loc_launcher \
     vendor/google/shamrock/proprietary/vendor/bin/btnvtool:/system/vendor/bin/btnvtool \
     vendor/google/shamrock/proprietary/vendor/bin/thermal-engine:/system/vendor/bin/thermal-engine \
+    vendor/google/shamrock/proprietary/vendor/bin/wcnss_filter:/system/vendor/bin/wcnss_filter \
     vendor/google/shamrock/proprietary/vendor/bin/time_daemon:/system/vendor/bin/time_daemon \
     vendor/google/shamrock/proprietary/vendor/bin/sensors.qcom:/system/vendor/bin/sensors.qcom \
     vendor/google/shamrock/proprietary/vendor/bin/ims_rtp_daemon:/system/vendor/bin/ims_rtp_daemon \
-    vendor/google/shamrock/proprietary/vendor/bin/audiod:/system/vendor/bin/audiod \
+    vendor/google/shamrock/proprietary/vendor/bin/ftmdaemon:/system/vendor/bin/ftmdaemon \
+    vendor/google/shamrock/proprietary/vendor/bin/fm_qsoc_patches:/system/vendor/bin/fm_qsoc_patches \
+    vendor/google/shamrock/proprietary/vendor/bin/energy-awareness:/system/vendor/bin/energy-awareness \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov4688_snapshot.so:/system/vendor/lib/libchromatix_ov4688_snapshot.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov5695_liveshot.so:/system/vendor/lib/libchromatix_ov5695_liveshot.so \
     vendor/google/shamrock/proprietary/vendor/lib/libmmi.so:/system/vendor/lib/libmmi.so \
@@ -425,7 +444,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libpdnotifier.so:/system/vendor/lib/libpdnotifier.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:/system/vendor/lib/libchromatix_imx230_cpp_preview.so \
     vendor/google/shamrock/proprietary/vendor/lib/libOmxApeDecSw.so:/system/vendor/lib/libOmxApeDecSw.so \
-    vendor/google/shamrock/proprietary/vendor/lib/lib-imsvideocodec.so:/system/vendor/lib/lib-imsvideocodec.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so:/system/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so \
     vendor/google/shamrock/proprietary/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so:/system/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so \
     vendor/google/shamrock/proprietary/vendor/lib/libdsi_netctrl.so:/system/vendor/lib/libdsi_netctrl.so \
@@ -442,7 +460,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov5670_f5670bq_cpp_preview.so:/system/vendor/lib/libchromatix_ov5670_f5670bq_cpp_preview.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60.so:/system/vendor/lib/libchromatix_s5k3l8_hfr_60.so \
     vendor/google/shamrock/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
-    vendor/google/shamrock/proprietary/vendor/lib/libwifi-hal-qcom.so:/system/vendor/lib/libwifi-hal-qcom.so \
     vendor/google/shamrock/proprietary/vendor/lib/libsecureuisvc_jni.so:/system/vendor/lib/libsecureuisvc_jni.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so:/system/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx258_hfr_90_3a.so:/system/vendor/lib/libchromatix_imx258_hfr_90_3a.so \
@@ -458,6 +475,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx378_default_preview.so:/system/vendor/lib/libchromatix_imx378_default_preview.so \
     vendor/google/shamrock/proprietary/vendor/lib/libmmjpeg.so:/system/vendor/lib/libmmjpeg.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov5695_cpp_hfr_120.so:/system/vendor/lib/libchromatix_ov5695_cpp_hfr_120.so \
+    vendor/google/shamrock/proprietary/vendor/lib/camera.device@3.2-impl.so:/system/vendor/lib/camera.device@3.2-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_preview_dw9763.so:/system/vendor/lib/libchromatix_s5k3l8_f3l8yam_default_preview_dw9763.so \
     vendor/google/shamrock/proprietary/vendor/lib/libmmcamera_s5k2l7.so:/system/vendor/lib/libmmcamera_s5k2l7.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k2l7_8953_4k_preview_ak7371.so:/system/vendor/lib/libchromatix_s5k2l7_8953_4k_preview_ak7371.so \
@@ -534,7 +552,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov8856_cpp_liveshot.so:/system/vendor/lib/libchromatix_ov8856_cpp_liveshot.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3m2xm_cpp_video_bear.so:/system/vendor/lib/libchromatix_s5k3m2xm_cpp_video_bear.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov5695_cpp_video_full.so:/system/vendor/lib/libchromatix_ov5695_cpp_video_full.so \
-    vendor/google/shamrock/proprietary/vendor/lib/lib-imscamera.so:/system/vendor/lib/lib-imscamera.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_default_video.so:/system/vendor/lib/libchromatix_ov13850_q13v06k_default_video.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx258_mono_bear_4k_video_lc898217xc.so:/system/vendor/lib/libchromatix_imx258_mono_bear_4k_video_lc898217xc.so \
     vendor/google/shamrock/proprietary/vendor/lib/libvendorconn.so:/system/vendor/lib/libvendorconn.so \
@@ -951,7 +968,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov5695_video_full.so:/system/vendor/lib/libchromatix_ov5695_video_full.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov5670_a3_default_video.so:/system/vendor/lib/libchromatix_ov5670_a3_default_video.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx214_cpp_video_hdr.so:/system/vendor/lib/libchromatix_imx214_cpp_video_hdr.so \
-    vendor/google/shamrock/proprietary/vendor/lib/lib-dplmedia.so:/system/vendor/lib/lib-dplmedia.so \
     vendor/google/shamrock/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:/system/vendor/lib/libmmcamera_s5k3m2xx.so \
     vendor/google/shamrock/proprietary/vendor/lib/libllvd_sw_tnr.so:/system/vendor/lib/libllvd_sw_tnr.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov2281_cpp_snapshot.so:/system/vendor/lib/libchromatix_ov2281_cpp_snapshot.so \
@@ -981,6 +997,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx230_qc2002_with_gyro_hfr_90.so:/system/vendor/lib/libchromatix_imx230_qc2002_with_gyro_hfr_90.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_60.so:/system/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_60.so \
     vendor/google/shamrock/proprietary/vendor/lib/liblocation_api.so:/system/vendor/lib/liblocation_api.so \
+    vendor/google/shamrock/proprietary/vendor/lib/camera.device@1.0-impl.so:/system/vendor/lib/camera.device@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3l8_mono_common.so:/system/vendor/lib/libchromatix_s5k3l8_mono_common.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so:/system/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so \
     vendor/google/shamrock/proprietary/vendor/lib/libApeSwDec.so:/system/vendor/lib/libApeSwDec.so \
@@ -1001,12 +1018,18 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/liboptizoom.so:/system/vendor/lib/liboptizoom.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so:/system/vendor/lib/hw/vendor.qti.hardware.factory@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:/system/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
+    vendor/google/shamrock/proprietary/vendor/lib/hw/audio.primary.msm8952.so:/system/vendor/lib/hw/audio.primary.msm8952.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:/system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:/system/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/gatekeeper.msm8952.so:/system/vendor/lib/hw/gatekeeper.msm8952.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:/system/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:/system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/google/shamrock/proprietary/vendor/lib/hw/lights.msm8952.so:/system/vendor/lib/hw/lights.msm8952.so \
+    vendor/google/shamrock/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:/system/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/google/shamrock/proprietary/vendor/lib/hw/activity_recognition.msm8952.so:/system/vendor/lib/hw/activity_recognition.msm8952.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/camera.msm8952.so:/system/vendor/lib/hw/camera.msm8952.so \
+    vendor/google/shamrock/proprietary/vendor/lib/hw/vulkan.msm8952.so:/system/vendor/lib/hw/vulkan.msm8952.so \
+    vendor/google/shamrock/proprietary/vendor/lib/hw/keystore.msm8952.so:/system/vendor/lib/hw/keystore.msm8952.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:/system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx378_cpp_liveshot.so:/system/vendor/lib/libchromatix_imx378_cpp_liveshot.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov7251_cpp_preview.so:/system/vendor/lib/libchromatix_ov7251_cpp_preview.so \
@@ -1037,7 +1060,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx298_video.so:/system/vendor/lib/libchromatix_imx298_video.so \
     vendor/google/shamrock/proprietary/vendor/lib/liblowi_client.so:/system/vendor/lib/liblowi_client.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx258_snapshot.so:/system/vendor/lib/libchromatix_imx258_snapshot.so \
-    vendor/google/shamrock/proprietary/vendor/lib/lib-imsvtextutils.so:/system/vendor/lib/lib-imsvtextutils.so \
     vendor/google/shamrock/proprietary/vendor/lib/libadsprpc.so:/system/vendor/lib/libadsprpc.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx258_mono_default_video_3a.so:/system/vendor/lib/libchromatix_imx258_mono_default_video_3a.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3l8_mono_default_video.so:/system/vendor/lib/libchromatix_s5k3l8_mono_default_video.so \
@@ -1255,7 +1277,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_downscale.so:/system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_downscale.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx230_qc2002_video_hdr.so:/system/vendor/lib/libchromatix_imx230_qc2002_video_hdr.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_video.so:/system/vendor/lib/libchromatix_s5k2l7_cpp_video.so \
-    vendor/google/shamrock/proprietary/vendor/lib/lib-imsvt.so:/system/vendor/lib/lib-imsvt.so \
     vendor/google/shamrock/proprietary/vendor/lib/libsystem_health_mon.so:/system/vendor/lib/libsystem_health_mon.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx230_qc2002_with_gyro_zsl_preview_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_qc2002_with_gyro_zsl_preview_lc898212xd.so \
     vendor/google/shamrock/proprietary/vendor/lib/libmmsw_detail_enhancement.so:/system/vendor/lib/libmmsw_detail_enhancement.so \
@@ -1269,7 +1290,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx230_qc2002_with_gyro_1080p_preview_lc898212xd.so:/system/vendor/lib/libchromatix_imx230_qc2002_with_gyro_1080p_preview_lc898212xd.so \
     vendor/google/shamrock/proprietary/vendor/lib/libqti-iopd-client.so:/system/vendor/lib/libqti-iopd-client.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_imx298_cpp_hfr_120.so:/system/vendor/lib/libchromatix_imx298_cpp_hfr_120.so \
-    vendor/google/shamrock/proprietary/vendor/lib/lib-imsvtutils.so:/system/vendor/lib/lib-imsvtutils.so \
     vendor/google/shamrock/proprietary/vendor/lib/libwfdhdcpcp.so:/system/vendor/lib/libwfdhdcpcp.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_ov5670_hfr_120.so:/system/vendor/lib/libchromatix_ov5670_hfr_120.so \
     vendor/google/shamrock/proprietary/vendor/lib/libhbtpclient.so:/system/vendor/lib/libhbtpclient.so \
@@ -1728,9 +1748,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/firmware/a530v3_seq.fw2:/system/vendor/firmware/a530v3_seq.fw2 \
     vendor/google/shamrock/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:/system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/google/shamrock/proprietary/vendor/firmware/venus-v1.b02:/system/vendor/firmware/venus-v1.b02 \
-    vendor/google/shamrock/proprietary/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:/system/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
-    vendor/google/shamrock/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:/system/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/google/shamrock/proprietary/vendor/firmware/wlan/prima/WCNSS_cfg.dat:/system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/google/shamrock/proprietary/vendor/firmware/a225_pm4.fw:/system/vendor/firmware/a225_pm4.fw \
     vendor/google/shamrock/proprietary/vendor/firmware/goodix_firmware.bin:/system/vendor/firmware/goodix_firmware.bin \
     vendor/google/shamrock/proprietary/vendor/firmware/widevine.b03:/system/vendor/firmware/widevine.b03 \
