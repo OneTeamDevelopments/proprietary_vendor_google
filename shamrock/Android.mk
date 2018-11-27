@@ -19,6 +19,17 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter shamrock,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := TimeService
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libantradio
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES_64 := proprietary/lib64/libantradio.so
