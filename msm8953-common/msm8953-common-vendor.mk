@@ -573,7 +573,6 @@ PRODUCT_COPY_FILES += \
      vendor/xiaomi/msm8953-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
      vendor/xiaomi/msm8953-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
      vendor/xiaomi/msm8953-common/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
-     vendor/xiaomi/msm8953-common/proprietary/lib/libaacwrapper.so:system/lib/libaacwrapper.so \
      vendor/xiaomi/msm8953-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
      vendor/xiaomi/msm8953-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
      vendor/xiaomi/msm8953-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
@@ -598,7 +597,6 @@ PRODUCT_COPY_FILES += \
      vendor/xiaomi/msm8953-common/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
      vendor/xiaomi/msm8953-common/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
      vendor/xiaomi/msm8953-common/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
-     vendor/xiaomi/msm8953-common/proprietary/lib64/libaacwrapper.so:system/lib64/libaacwrapper.so \
      vendor/xiaomi/msm8953-common/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
      vendor/xiaomi/msm8953-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
      vendor/xiaomi/msm8953-common/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
