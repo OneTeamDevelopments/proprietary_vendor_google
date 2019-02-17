@@ -190,10 +190,6 @@ need to be added just before the end of it's major group. -->
         <Minor OpcodeValue="0x0" Node="/sys/class/devfreq/soc:qcom,l3-cpu%d/min_freq" />
         <Minor OpcodeValue="0x1" Node="/sys/class/devfreq/soc:qcom,memlat-cpu0/mem_latency/ratio_ceil" />
         <Minor OpcodeValue="0x2" Node="/sys/class/devfreq/soc:qcom,memlat-cpu4/mem_latency/ratio_ceil" />
-        <Minor OpcodeValue="0x3" Node="/sys/class/devfreq/soc:qcom,memlat-cpu0/mem_latency/stall_floor" />
-        <Minor OpcodeValue="0x4" Node="/sys/class/devfreq/soc:qcom,memlat-cpu4/mem_latency/stall_floor" />
-        <Minor OpcodeValue="0x5" Node="/sys/class/devfreq/soc:qcom,memlat-cpu0/min_freq" />
-        <Minor OpcodeValue="0x6" Node="/sys/class/devfreq/soc:qcom,memlat-cpu4/min_freq" />
     <!-- memlat major end -->
 
     </PerfResources>
