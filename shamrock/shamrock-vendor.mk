@@ -67,14 +67,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/lib/libfilterpack_imageproc.so:/system/lib/libfilterpack_imageproc.so \
     vendor/google/shamrock/proprietary/lib/libimscamera_jni.so:/system/lib/libimscamera_jni.so \
     vendor/google/shamrock/proprietary/lib/libimsmedia_jni.so:/system/lib/libimsmedia_jni.so \
-    vendor/google/shamrock/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
-    vendor/google/shamrock/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
     vendor/google/shamrock/proprietary/lib/libmmosal.so:/system/lib/libmmosal.so \
     vendor/google/shamrock/proprietary/lib/libmmparser.so:/system/lib/libmmparser.so \
     vendor/google/shamrock/proprietary/lib/libmmparser_lite.so:/system/lib/libmmparser_lite.so \
-    vendor/google/shamrock/proprietary/lib/libmm-qcamera.so:/system/lib/libmm-qcamera.so \
     vendor/google/shamrock/proprietary/lib/libqmi_cci_system.so:/system/lib/libqmi_cci_system.so \
-    vendor/google/shamrock/proprietary/lib/libqomx_core.so:/system/lib/libqomx_core.so \
     vendor/google/shamrock/proprietary/lib/librcc.so:/system/lib/librcc.so \
     vendor/google/shamrock/proprietary/lib/lib-imscamera.so:/system/lib/lib-imscamera.so \
     vendor/google/shamrock/proprietary/lib/lib-imsvideocodec.so:/system/lib/lib-imsvideocodec.so \
@@ -536,6 +532,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@2.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+	vendor/google/shamrock/proprietary/vendor/lib/libmmcamera_interface.so:/vendor/lib/libmmcamera_interface.so \
+    vendor/google/shamrock/proprietary/vendor/lib/libmmjpeg_interface.so:/vendor/lib/libmmjpeg_interface.so \
+	vendor/google/shamrock/proprietary/vendor/lib/libmm-qcamera.so:/vendor/lib/libmm-qcamera.so \
+	vendor/google/shamrock/proprietary/vendor/lib/libqomx_core.so:/vendor/lib/libqomx_core.so \
+	vendor/google/shamrock/proprietary/vendor/lib/vndk/libbinder.so:/vendor/lib/vndk/libbinder.so \
+	vendor/google/shamrock/proprietary/vendor/lib//vndk-sp/libcutils.so:/vendor/lib/vndk-sp/libcutils.so \
     vendor/google/shamrock/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/google/shamrock/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/google/shamrock/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
