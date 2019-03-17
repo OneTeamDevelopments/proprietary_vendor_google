@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/lib64/libimsmedia_jni.so:/system/lib64/libimsmedia_jni.so \
     vendor/google/shamrock/proprietary/lib64/libldacBT_enc.so:/system/lib64/libldacBT_enc.so \
     vendor/google/shamrock/proprietary/lib64/liblocationservice_jni.so:/system/lib64/liblocationservice_jni.so \
+	vendor/google/shamrock/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/google/shamrock/proprietary/lib64/libqmi_cci_system.so:/system/lib64/libqmi_cci_system.so \
     vendor/google/shamrock/proprietary/lib64/librcc.so:/system/lib64/librcc.so \
     vendor/google/shamrock/proprietary/lib64/lib-imscamera.so:/system/lib64/lib-imscamera.so \
@@ -1950,7 +1951,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
-    libloc_api_v02 \
     QtiTelephonyService \
     CNEService \
     ims \
