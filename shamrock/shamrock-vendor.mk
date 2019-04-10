@@ -34,7 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:/system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/google/shamrock/proprietary/framework/qcrilhook.jar:/system/framework/qcrilhook.jar \
     vendor/google/shamrock/proprietary/framework/qti-telephony-common.jar:/system/framework/qti-telephony-common.jar \
-    vendor/google/shamrock/proprietary/lib64/android.hardware.gnss@8.0.so:/system/lib64/android.hardware.gnss@8.0.so \
+    vendor/google/shamrock/proprietary/framework/com.qualcomm.location.vzw_library.jar:/system/framework/com.qualcomm.location.vzw_library.jar \
+    vendor/google/shamrock/proprietary/framework/com.qti.location.sdk.jar:/system/framework/com.qti.location.sdk.jar \
     vendor/google/shamrock/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:/system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/google/shamrock/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:/system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/google/shamrock/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:/system/lib64/com.qualcomm.qti.imscmservice@2.1.so \
@@ -95,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/google/shamrock/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/google/shamrock/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
-    vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@2.0-service \
+    vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/google/shamrock/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
@@ -220,7 +221,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/google/shamrock/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/google/shamrock/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/google/shamrock/proprietary/vendor/etc/init/vendor.qti.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@2.0-service.rc \
+    vendor/google/shamrock/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/google/shamrock/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
     vendor/google/shamrock/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
     vendor/google/shamrock/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
@@ -229,6 +230,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/etc/msm_irqbalance_little_big.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance_little_big.conf \
     vendor/google/shamrock/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/google/shamrock/proprietary/vendor/etc/permissions/vendor-qti-hardware-alarm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-alarm.xml \
+    vendor/google/shamrock/proprietary/vendor/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.location.sdk.xml \
+    vendor/google/shamrock/proprietary/vendor/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.xml \
+    vendor/google/shamrock/proprietary/vendor/etc/permissions/com.qualcomm.location.vzw_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/google/shamrock/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/google/shamrock/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/google/shamrock/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
@@ -318,6 +322,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8952.so \
     vendor/google/shamrock/proprietary/vendor/lib64/hw/keystore.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8952.so \
     vendor/google/shamrock/proprietary/vendor/lib64/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@2.0-impl.so \
+    vendor/google/shamrock/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib64/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libC2D2.so \
@@ -363,7 +368,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
     vendor/google/shamrock/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/google/shamrock/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
-    vendor/google/shamrock/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
     vendor/google/shamrock/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/google/shamrock/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/google/shamrock/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
@@ -376,6 +380,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
     vendor/google/shamrock/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so \
     vendor/google/shamrock/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
+    vendor/google/shamrock/proprietary/vendor/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_jni.so \
     vendor/google/shamrock/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
     vendor/google/shamrock/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
     vendor/google/shamrock/proprietary/vendor/lib64/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_externalDr.so \
@@ -472,6 +477,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.1.so \
     vendor/google/shamrock/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.2.so \
     vendor/google/shamrock/proprietary/vendor/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.0.so \
+    vendor/google/shamrock/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
     vendor/google/shamrock/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/google/shamrock/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/google/shamrock/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
@@ -532,7 +538,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/camera.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8952.so \
-    vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@2.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.alarm@1.0-impl.so \
     vendor/google/shamrock/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
 	vendor/google/shamrock/proprietary/vendor/lib/libmmcamera_interface.so:/vendor/lib/libmmcamera_interface.so \
@@ -1615,9 +1620,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeedbackhandler.so \
     vendor/google/shamrock/proprietary/vendor/lib/libflash_gpio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_gpio.so \
     vendor/google/shamrock/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
-    vendor/google/shamrock/proprietary/vendor/lib/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnss.so \
-    vendor/google/shamrock/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
-    vendor/google/shamrock/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
     vendor/google/shamrock/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/google/shamrock/proprietary/vendor/lib/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpclient.so \
     vendor/google/shamrock/proprietary/vendor/lib/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpdsp.so \
@@ -1902,10 +1904,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/google/shamrock/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
     vendor/google/shamrock/proprietary/vendor/lib/vendor.qti.data.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@1.0.so \
-    vendor/google/shamrock/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
-    vendor/google/shamrock/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.1.so \
-    vendor/google/shamrock/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.2.so \
-    vendor/google/shamrock/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.0.so \
     vendor/google/shamrock/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/google/shamrock/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/google/shamrock/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
@@ -1955,6 +1953,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
+	Spectrum \
     CNEService \
     ims \
     qcrilmsgtunnel \
