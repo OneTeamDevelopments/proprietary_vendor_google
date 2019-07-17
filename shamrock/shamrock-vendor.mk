@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so \
     vendor/google/shamrock/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
     vendor/google/shamrock/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
+    vendor/google/shamrock/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
@@ -1122,10 +1123,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3p8sp_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_postproc.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_preview.so \
     vendor/google/shamrock/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot.so \
+    vendor/google/shamrock/proprietary/vendor/lib/libflash_gpio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_gpio.so \
     vendor/google/shamrock/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/google/shamrock/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/google/shamrock/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/google/shamrock/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    vendor/google/shamrock/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
+    vendor/google/shamrock/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
     vendor/google/shamrock/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/google/shamrock/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/google/shamrock/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
@@ -1288,4 +1292,5 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/google/shamrock/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/google/shamrock/proprietary/vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveBlobDescriptor_skel.so \
-    vendor/google/shamrock/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so
+    vendor/google/shamrock/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
+    vendor/google/shamrock/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0_vendor.so
